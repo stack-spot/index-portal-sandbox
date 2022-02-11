@@ -1,0 +1,3 @@
+studios:
+  - location: ../repo-studio-backend
+  - location: ../repo-studio-infra

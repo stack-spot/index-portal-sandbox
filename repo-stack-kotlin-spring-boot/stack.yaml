@@ -1,0 +1,10 @@
+name: kotlin-spring-boot
+# [sre, frontend, backend, fullStack, analytics]
+category: backend
+technologies: ["Kotlin", "SpringBoot"]
+description: |
+  Sir, Commander Skywalker hasn't come in through the south entrance. He might have forgotten to check in.
+  Not likely. Are the speeders ready? Not yet. We're having some trouble adapting them to the cold.
+about: about.md
+useCase: useCase.md
+children: ["sqs-producer-app-kt-plugin", "sqs-consumer-app-kt-plugin", "kotlin-template"]

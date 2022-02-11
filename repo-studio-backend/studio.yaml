@@ -1,0 +1,115 @@
+name: stack-spot-backend
+displayName: Stack Spot Backend
+picture: #path or url
+about: Studio that manage a lot of backend stacks.
+technologies: [ "Kotlin", "SpringBoot", "Golang" ]
+#whoWeAre: |
+#  Lorem Ipsum is simply dummy text of the printing and
+#  typesetting industry. Lorem Ipsum has been the industry's standard
+#  dummy text ever since the 1500s, when an unknown printer took a galley
+#  of type and scrambled it to make a type specimen book. It has survived
+#  not only five centuries, but also the leap into electronic typesetting,
+#  remaining essentially unchanged. It was popularised in the 1960s with
+#  the release of Letraset sheets containing Lorem Ipsum passages,
+#  and more recently with desktop publishing software like Aldus PageMaker
+#  including versions of Lorem Ipsum.
+creators:
+  - displayName: Carlos João
+    user: joao144
+    provider: github
+    jobRole: software Engineer
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  - displayName: Janelle Dawe
+    githubName: janelleDawe
+    jobRole: software Engineer
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+techRadar:
+  tools:
+    hold: [ ]
+    assess: [ ]
+    trial: [ ]
+    adopt: [ ]
+  languagesAndFrameworks:
+    hold: [ ]
+    assess: [ ]
+    trial: [ ]
+    adopt: [ ]
+  platforms:
+    hold: [ ]
+    assess: [ ]
+    trial: [ ]
+    adopt: [ ]
+  techniques:
+    hold:
+      - name: Peer review equals pull request
+        about: >
+          Some organizations seem to think peer review equals pull request; they've taken the view that the only way to 
+          achieve a peer review of code is via a pull request. We've seen this approach create significant team bottlenecks 
+          as well as significantly degrade the quality of feedback as overloaded reviewers begin to simply reject requests.
+          Although the argument could be made that this is one way to demonstrate code review \"regulatory compliance,\" one
+          of our clients was told this was invalid since there was no evidence the code was actually read by anyone prior to
+          acceptance. Pull requests are only one way to manage the code review workflow; we urge people to consider other 
+          approaches, especially where there is a need to coach and pass on feedback carefully.
+
+        status: moved_out
+        # [moved_in, moved_out, new, no_change]
+    assess:
+      - name: Remote spontaneous huddling
+        about: >
+          We're seeing continued innovation in remote collaboration tools. The new Huddles feature in Slack provides a 
+          Discord-like experience of persistent audio calls that users can jump in and out of at any time. Gather provides a 
+          creative way to emulate a virtual office with avatars and video. IDEs provide direct collaboration features for 
+          pairing and debugging: we've previously blipped Visual Studio Live Share and included JetBrains Code With Me to 
+          the list in this edition. As tools continue to evolve modalities for collaboration in addition to video 
+          conferencing, we're increasingly seeing teams participating in remote spontaneous huddling, recreating the 
+          spontaneity of informal conversations over the intentionality of scheduling a Zoom or Microsoft Teams meeting. 
+          We don't expect to ever fully recreate the richness of face-to-face communication through digital tools, but we do
+          see improved remote team effectiveness by giving teams multiple channels of collaboration rather than relying on 
+          one toolchain for everything.
+        # [moved_in, moved_out, new, no_change]
+        status: new
+    trial:
+      - name: Data mesh
+        about: >
+          Increasingly, we see a mismatch between what data-driven organizations want to achieve and what the current data
+          architectures and organizational structures allow. Organizations want to embed data-driven decision-making,
+          machine learning and analytics into many aspects of their products and services and how they operate internally;
+          essentially they want to augment every aspect of their operational landscape with data-driven intelligence. Yet,
+          we still have a ways to go before we can embed analytical data, access to it and how it is managed into the 
+          business domains and operations. Today, every aspect of managing analytical data is externalized outside of the
+          operational business domains to the data team and to the data management monoliths: data lakes and data 
+          warehouses. Data mesh is a decentralized sociotechnical approach to remove the dichotomy of analytical data and 
+          business operation. Its objective is to embed sharing and using analytical data into each operational business 
+          domain and close the gap between the operational and analytical planes. It's founded on four principles: domain 
+          data ownership, data as a product, self-serve data platform and computational federated governance. Our teams 
+          have been implementing the data mesh architecture; they've created new architectural abstractions such as the 
+          data product quantum to encapsulate the code, data and policy as an autonomous unit of analytical data sharing 
+          embedded into operational domains; and they've built self-serve data platform capabilities to manage the 
+          lifecycle of data product quanta in a declarative manner as described in Data Mesh. Despite our technical 
+          advances, we're still experiencing friction using the existing technologies in a data mesh topology, not to 
+          mention the resistance of business domains to embrace sharing and using data as a first-class responsibility 
+          in some organizations.
+        # [moved_in, moved_out, new, no_change]
+        status: no_change
+    adopt:
+      - name: zero trust architecture
+        about: >
+          We keep hearing about enterprises finding their security badly compromised due to an overreliance on the 
+          "secure" network perimeter. Once this external perimeter is breached, internal systems prove to be poorly 
+          protected with attackers quickly and easily able to deploy automated data extraction tools and ransomware 
+          attacks that all too often remain undetected for long periods. This leads us to recommend zero trust 
+          architecture (ZTA) as a now sensible default. ZTA is a paradigm shift in security architecture and strategy. 
+          It’s based on the assumption that a network perimeter is no longer representative of a secure boundary and no 
+          implicit trust should be granted to users or services based solely on their physical or network location. The 
+          number of resources, tools and platforms available to implement aspects of ZTA keeps growing and includes 
+          enforcing policies as code based on the least privilege and as-granular-as-possible principles and continuous 
+          monitoring and automated mitigation of threats; using service mesh to enforce security control 
+          application-to-service and service-to-service; implementing binary attestation to verify the origin of the 
+          binaries; and including secure enclaves in addition to traditional encryption to enforce the three pillars of 
+          data security: in transit, at rest and in memory. For introductions to the topic, consult the NIST ZTA 
+          publication and Google's white paper on BeyondProd.
+        # [moved_in, moved_out, new, no_change]
+        status: moved_in
+stacks:
+  - location: ../repo-stack-kotlin-spring-boot
+    
