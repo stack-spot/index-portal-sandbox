@@ -2,6 +2,7 @@ name: kotlin-spring-boot
 picture: #path or url
 # [sre, frontend, backend, fullStack, analytics]
 category: backend
+changeLog: #path or url
 technologies: ["Kotlin", "SpringBoot"]
 description: |
   Sir, Commander Skywalker hasn't come in through the south entrance. He might have forgotten to check in.
