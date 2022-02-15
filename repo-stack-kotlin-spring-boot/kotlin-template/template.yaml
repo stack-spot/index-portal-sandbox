@@ -1,7 +1,5 @@
 name: spring-app-kt-template
 description: Spring + Kotlin
-# [sre, frontend, backend, fullStack, analytics]
-category: backend
 types:
   - app-template
 inputs:
@@ -21,3 +19,11 @@ inputs:
     type: bool
     name: "starter_web"
     default: true
+###new fields
+picture: #path or url
+# [sre, frontend, backend, fullStack, analytics]
+category: backend
+changeLog: #path or url
+about: about.md
+usage: usage.md
+implementation: implementation.md
