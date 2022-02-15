@@ -27,3 +27,4 @@ changeLog: #path or url
 about: about.md
 usage: usage.md
 implementation: implementation.md
+displayName: Spring + Kotlin

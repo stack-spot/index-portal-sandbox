@@ -1,3 +1,4 @@
+#Example of a genereted plugin.yaml without any new field
 name: "sqs-consumer-app-kt-plugin"
 description: Plugin to configure sqs consumer
 types: 
