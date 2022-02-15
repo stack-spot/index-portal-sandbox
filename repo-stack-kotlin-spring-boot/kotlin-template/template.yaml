@@ -21,7 +21,7 @@ inputs:
     default: true
 ###new fields
 picture: #path or url
-# [sre, frontend, backend, fullStack, analytics]
+# [any category]
 category: backend
 changeLog: #path or url
 about: about.md
