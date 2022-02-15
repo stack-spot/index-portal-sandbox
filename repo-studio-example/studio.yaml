@@ -1,0 +1,17 @@
+name: repo-studio-example
+displayName: Example of studio
+picture: #path or url
+about: a example of a studio that use a remote stack.
+technologies: [ "example" ]
+creators:
+  - displayName: Carlos João
+    user: joao144
+    provider: github
+    jobRole: software Engineer
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  - displayName: Janelle Dawe
+    githubName: janelleDawe
+    jobRole: software Engineer
+    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+stacks:
+  - location: https://github.com/stack-spot/catalog-example
