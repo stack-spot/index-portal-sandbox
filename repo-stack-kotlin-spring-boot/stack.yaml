@@ -7,4 +7,5 @@ description: |
   Not likely. Are the speeders ready? Not yet. We're having some trouble adapting them to the cold.
 about: about.md
 useCase: useCase.md
+#children é apenas para testLocal "Provisorio"
 children: ["sqs-producer-app-kt-plugin", "sqs-consumer-app-kt-plugin", "kotlin-template"]
