@@ -112,5 +112,6 @@ techRadar:
         # [moved_in, moved_out, new, no_change]
         status: moved_in
 stacks:
+  #tem que ser um repo separado por causa do cli
   - location: ../repo-stack-kotlin-spring-boot
     
