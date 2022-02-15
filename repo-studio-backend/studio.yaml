@@ -3,7 +3,7 @@ displayName: Stack Spot Backend
 picture: #path or url
 about: Studio that manage a lot of backend stacks.
 technologies: [ "Kotlin", "SpringBoot", "Golang" ]
-#whoWeAre: |
+#description: |
 #  Lorem Ipsum is simply dummy text of the printing and
 #  typesetting industry. Lorem Ipsum has been the industry's standard
 #  dummy text ever since the 1500s, when an unknown printer took a galley
@@ -15,13 +15,14 @@ technologies: [ "Kotlin", "SpringBoot", "Golang" ]
 #  including versions of Lorem Ipsum.
 creators:
   - displayName: Carlos João
-    user: joao144
+    profileURL: https://github.com/joao
     provider: github
     jobRole: software Engineer
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
   - displayName: Janelle Dawe
-    githubName: janelleDawe
     jobRole: software Engineer
+    profileURL: https://github.com/janelle
+    provider: github
     picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
 techRadar:
   tools:
