@@ -1,4 +1,5 @@
 name: kotlin-spring-boot
+picture: #path or url
 # [sre, frontend, backend, fullStack, analytics]
 category: backend
 technologies: ["Kotlin", "SpringBoot"]
