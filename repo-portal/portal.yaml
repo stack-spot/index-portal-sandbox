@@ -3,3 +3,4 @@ studios:
   - location: ../repo-studio-infra
   - location: "../repo-studio-example"
   - location: "../../../repo-studio-example"
+  - location: "../repo-studio-all"
