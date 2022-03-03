@@ -1,6 +1,1 @@
-studios:
-  - location: "https://github.com/viniciussousazup/stack-spot-portal/repo-studio-backend"
-  - location: ../repo-studio-infra
-  - location: "../repo-studio-example"
-  - location: "../../../repo-studio-example"
-  - location: "../repo-studio-all"
+studios: []
