@@ -1,1 +1,52 @@
-studios: []
+#Aqui deve ser cadastrado todos os studios que o portal deve indexar.
+studios:
+    # Para registrar um studio precisa apenas colocar a location que é a url do repo do studio
+    # suportamos os seguintes formatos de urls:
+    #   * "https://github.com/viniciussousazup/example-stack-spot-studio"
+    #   * "git@github.com:viniciussousazup/example-stack-spot-studio.git"
+    #   * "https://github.com/viniciussousazup/example-stack-spot-studio.git"
+    # para evitar erros recomendamos colocar a url entre aspas ""
+  - location: "https://github.com/stack-spot/skynet-studio"
+
+# Categories que podem ser utilizadas no portal
+# Para uma melhor manutenção cadastrar em ordem alfabetica
+# https://www.4devs.com.br/colocar_em_ordem_alfabetica
+validCategories:
+    - "Analytics"
+    - "Backend"
+    - "Frontend"
+    - "Full Stack"
+    - "SRE"
+
+# Technologies que podem ser utilizadas no portal
+# Para uma melhor manutenção cadastrar em ordem alfabetica
+# https://www.4devs.com.br/colocar_em_ordem_alfabetica
+validTechnologies:
+    - ".NET"
+    - "Apache Spark"
+    - "Api"
+    - "AWS DynamoDB"
+    - "AWS ECS/Fargate"
+    - "AWS EventBridge"
+    - "AWS Glue"
+    - "AWS Kinesis"
+    - "AWS Lake Formation"
+    - "AWS Lambda"
+    - "AWS S3"
+    - "AWS SNS"
+    - "AWS SQS"
+    - "C#"
+    - "Docker"
+    - "Jaeger"
+    - "Java"
+    - "Observability"
+    - "OpenAPI"
+    - "Parquet"
+    - "Prometheus"
+    - "Python"
+    - "Queue"
+    - "Rest"
+    - "Secrets"
+    - "Splunk"
+    - "Springboot"
+    - "Typescript"
