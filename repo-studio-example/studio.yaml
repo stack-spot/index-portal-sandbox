@@ -1,17 +1,47 @@
-name: repo-studio-example
-displayName: Example of studio
-picture: #path or url
-about: a example of a studio that use a remote stack.
-technologies: [ "example" ]
+name: skynet-studio
+displayName: SkyNet
+picture: "studio.png"
+
+company: StackSpot
+
+about: Stacks que provêm confiança e velocidade no seu desenvolvimento
+
+technologies: [".NET", "C#", "Api", "OpenAPI", "Splunk", "Prometheus", "Jaeger", "AWS SQS", "AWS DynamoDB", "Docker", "AWS ECS/Fargate"]
+whoWeAre: |
+ O estúdio SkyNet nasceu com a missão de ajudar desenvolvedores a entregar software com velocidade e confiança, para que o negócio consiga entregar mais funcionalidades para seus clientes. Assim, nossos produtos são focados em absorver grande parte da carga cognitiva do código necessário para desenvolver desde uma simples aplicação, como também grandes sistemas complexos.
+ Somos desenvolvedores apaixonados por tecnologia, estamos sempre buscando inovar em nossas soluções, utilizando as melhores práticas de desenvolvimento sempre focando nos nossos valores":" confiança, qualidade e velocidade.
+ Fomos o primeiro estúdio a lançar produtos utilizando a tecnologia da StackSpot. Temos parcerias com diversos projetos do banco Itaú.
+ 
 creators:
-  - displayName: Carlos João
-    user: joao144
+  - displayName: Onofre Juvencio
+    profileURL: "https://github.com/onofrejuvencio"
     provider: github
-    jobRole: software Engineer
-    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-  - displayName: Janelle Dawe
-    githubName: janelleDawe
-    jobRole: software Engineer
-    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+    jobRole: Software Engineer
+    picture: "https://avatars.githubusercontent.com/u/97553744?v=4"
+
+  - displayName: Ricardo Pires
+    profileURL: "https://github.com/ricardojosezup"
+    provider: github
+    jobRole: Software Engineer
+    picture: "https://avatars.githubusercontent.com/u/62444338?v=4"
+
+  - displayName: Maurício Gomes(Alcides)
+    jobRole: Tech Lead
+    profileURL: "https://github.com/alcidesmauricio"
+    provider: github
+    picture: "https://avatars.githubusercontent.com/u/89221304?v=4"
+
+  - displayName: Samuel Henrique Ferreira
+    jobRole: Tech Lead
+    profileURL: "https://github.com/samuelhenriquezup"
+    provider: github
+    picture: "https://avatars.githubusercontent.com/u/71265980?v=4"
+
+  - displayName: Lucas Santos de Almeida
+    jobRole: Software Engineer
+    profileURL: "https://github.com/lucas-almeida-zup"
+    provider: github
+    picture: "https://avatars.githubusercontent.com/u/90719625?v=4"
+
 stacks:
-  - location: https://github.com/stack-spot/catalog-example
+  - location: "https://github.com/stack-spot/skynet-dotnet-stack"
