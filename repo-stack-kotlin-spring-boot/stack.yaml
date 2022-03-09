@@ -1,14 +1,11 @@
 name: kotlin-spring-boot
 displayName: Kotlin spring boot
-picture: #path or url
-# [sre, frontend, backend, fullStack, analytics]
-category: backend
-changeLog: #path or url
-technologies: ["Kotlin", "SpringBoot"]
-description: |
-  Sir, Commander Skywalker hasn't come in through the south entrance. He might have forgotten to check in.
-  Not likely. Are the speeders ready? Not yet. We're having some trouble adapting them to the cold.
+description: Desenhe, desenvolva e publique APIs para conectar softwares da empresa no seu produto.
+picture: "stack.png"
+category: Backend
+compatibility:
+  - net5.0
+  - net6.0
+technologies: [".NET", "C#", "Api", "OpenAPI", "Splunk", "Prometheus", "Jaeger", "AWS SQS", "AWS DynamoDB", "Docker", "AWS ECS/Fargate"]
 about: about.md
 useCase: useCase.md
-#children é apenas para testLocal "Provisorio"
-children: ["sqs-producer-app-kt-plugin", "sqs-consumer-app-kt-plugin", "kotlin-template"]
