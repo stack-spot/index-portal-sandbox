@@ -1,0 +1,7 @@
+type: app
+description: Application test stackfile with plugin
+template: stacklifecycle-oscli-test-catalog/template-test
+plugins:
+  - plugin: stacklifecycle-oscli-test-catalog/plugin-test
+    inputs:
+      example: "Example input"
