@@ -45,3 +45,4 @@ creators:
 
 stacks:
   - location: "https://github.com/stack-spot/stacklifecycle-oscli-test-catalog"
+  - location: "https://github.com/stack-spot/getting-started-csharp-prv"
