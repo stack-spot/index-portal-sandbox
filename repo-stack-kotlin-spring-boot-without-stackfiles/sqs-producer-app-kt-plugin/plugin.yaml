@@ -1,0 +1,25 @@
+name: "sqs-producer-app-kt-plugin"
+description: Plugin to configure sqs producer
+types: 
+  - app
+tags:
+  - sqs
+  - producer
+inputs:
+  - label: "AWS region: "
+    type: text
+    name: "aws_region"
+    default: "us-east-1"
+  
+  - label: "Producer Queue url: "
+    type: text
+    name: "sqs_producer_queue_url"
+###new fields
+picture: #path or url
+# [any category]
+category: backend
+changeLog: #path or url
+about: about.md
+usage: usage.md
+implementation: implementation.md
+displayName: SQS Producer app KT plugin

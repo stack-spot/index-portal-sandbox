@@ -1,0 +1,11 @@
+name: kotlin-spring-boot
+displayName: Kotlin spring boot
+description: Desenhe, desenvolva e publique APIs para conectar softwares da empresa no seu produto.
+picture: "stack.png"
+category: Backend
+compatibility:
+  - net5.0
+  - net6.0
+technologies: [".NET", "C#", "Api", "OpenAPI", "Splunk", "Prometheus", "Jaeger", "AWS SQS", "AWS DynamoDB", "Docker", "AWS ECS/Fargate"]
+about: about.md
+useCase: useCase.md
