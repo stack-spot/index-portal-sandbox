@@ -115,4 +115,6 @@ stacks:
   #tem que ser um repo separado por causa do cli
   - location: ../repo-stack-kotlin-spring-boot
   - location: ../repo-stack-kotlin-spring-boot-without-stackfiles
+  - location: https://github.com/stack-spot/skynet-lambda-handler-stack
+  - location: https://github.com/stack-spot/skynet-typescript-api-stack
     
