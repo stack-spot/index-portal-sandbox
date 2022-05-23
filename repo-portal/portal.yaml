@@ -6,10 +6,10 @@ studios:
     #   * "git@github.com:viniciussousazup/example-stack-spot-studio.git"
     #   * "https://github.com/viniciussousazup/example-stack-spot-studio.git"
     # para evitar erros recomendamos colocar a url entre aspas ""
-  - location: "../repo-studio-example"
-  - location: "../repo-studio-backend"
-  - location: "https://github.com/stack-spot/skynet-studio"
-  - location: "https://github.com/stack-spot/example-portal-studio"
+    #- location: "../repo-studio-example"
+    #- location: "../repo-studio-backend"
+    #- location: "https://github.com/stack-spot/skynet-studio"
+    #- location: "https://github.com/stack-spot/example-portal-studio"
   - location: "https://github.com/stack-spot/zup-studio"
 
 # Categories que podem ser utilizadas no portal
